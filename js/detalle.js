@@ -2,9 +2,9 @@ console.log(location);
 
 let queryString= location.search
 
-let queryStringOj= new URLSearchParams(queryString)
+let queryStringObj= new URLSearchParams(queryString)
 
-let id= queryStringOj.get("id")
+let id= queryStringObj.get("id")
 
 console.log(id);
 
